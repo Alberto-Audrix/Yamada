@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fContainer{
+    display: flex;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+}
+
+.brand img{
+    width: 40px;
+    height: 40px;
+}
+
+.brandname{
+    color: gold;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation>li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation>li>a:hover{
+    color: gold;
+    transition: all .4s ease-in-out;
+}
+
+.active {
+    color: white;
+    padding: 15px;
+}
+
+.active1 {
+    color: white;
+    padding: 15px;
+}
+
+.active2 {
+
+    color: white;
+    padding: 15px;
+}
+
+.main {
+    background-color: grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.foot {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0px 20px 10px;
+}
+
+.foot h1{
+    text-align: center;
+    color: gold;
+}
+
+.foot p{
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.foot img{
+    margin-top: 5px;
+}
+
+fieldset {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 7px;  
+    background-color: grey;
+    
+}
+
+legend {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.form {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.form label {
+    font-size: 25px;
+}
+
+.form input, .form option, .form textarea, .form select{
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color:white;
+    color: black;
+    margin-top: 10px;
+}
+
+.form label  {
+    margin-top: 30px;
+}
+
+.name input, .phone-number input, .gender input, .product select, .mail input, .date input {
+    height: 25px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+.name input {
+    margin-left: 130px;
+}
+
+.phone-number input{
+    margin-left: 24px;
+}
+
+.gender input {
+    margin-left: 96px;
+}
+
+.mail input{
+    margin-left: 120px;
+}
+
+.product select {
+    margin-left: 103px;
+}
+
+.date input{
+    margin-left: 40px;
+}
+
+.term label {
+    font-size: 15px;
+} 
+
+.button input {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 3px;
+    text-align: center;
+}
+
+
+
